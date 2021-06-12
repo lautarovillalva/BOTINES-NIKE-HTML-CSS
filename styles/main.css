@@ -1,0 +1,138 @@
+body{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+header, section, footer{
+    width: 70%;
+    overflow: auto;
+    margin: auto;
+}
+header{
+    background-color: darkorange;
+}
+#marca{
+    float: left;
+}
+#marca h1{
+    margin: 0;
+    padding-top: 3px;
+    padding-left: 13px;
+}
+#botonera{
+    float: right;
+}
+#botonera ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#botonera ul li{
+    display: inline;
+}
+#botonera ul li a{
+    display:inline-block;
+    padding: 30px ;
+    text-decoration: none;
+    color: black;
+}
+#botonera ul li a:hover{
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+}
+#banner {
+    /* height: 300px; */
+    box-sizing: border-box;
+    background-color: rgb(12, 12, 12);
+}
+.cursiva{
+    font-style: italic;
+    color: grey;
+}
+#banner img{
+    width: 200px;
+    display:block;
+    margin:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#banner h2{
+    text-align: center;
+    font-size: 70px;
+    color: aliceblue;
+}
+#silos{
+    overflow: hidden;
+}
+#caracteristicas{
+    overflow: hidden;
+}
+#silos figure{
+    float: left;
+    width: 44%;
+}
+#silos figure img{
+    width: 100%;
+}
+#datos {
+    width: 300px;
+    height: 150px;
+    background-color: darkmagenta;
+    float: left;
+  }
+  #redes {
+    width: 350px;
+    height: 40px;
+    background-color: darkmagenta;
+    float: right;
+  }
+  footer{
+      background-color: aquamarine;
+  }
+  #info{
+      width: 100%;
+  }
+#video{
+    margin-left: 30%;
+}
+#txt-carac{
+    float: left;
+    width: 70%;
+}
+#img-carac{
+    width: 30%;
+    float: right;
+}
+#img-carac img{
+    width: 100%;
+}
+#comprar{
+    display: flex;
+    flex-direction: row;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  .card a {
+    border: none;
+    outline: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
