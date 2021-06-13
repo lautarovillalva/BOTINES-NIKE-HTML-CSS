@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
 body{
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
     text-align: justify;
 }
 header, section, footer{
@@ -20,6 +21,7 @@ header{
     padding-left: 13px;
 }
 #botonera{
+    font-size: 10px;
     float: right;
 }
 #botonera ul{
@@ -27,24 +29,27 @@ header{
     padding: 0;
     list-style: none;
 }
-
+#img-superficies img{
+    width: 100%;
+}
 #botonera ul li{
     display: inline;
 }
 #botonera ul li a{
+    font-size: 20px;
     display:inline-block;
-    padding: 30px ;
+    padding: 20px ;
     text-decoration: none;
     color: black;
 }
 #botonera ul li a:hover{
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
 }
 #banner {
     /* height: 300px; */
     box-sizing: border-box;
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(0, 0, 0);
 }
 .cursiva{
     font-style: italic;
@@ -70,7 +75,7 @@ header{
 }
 #silos figure{
     float: left;
-    width: 44%;
+    width: 40%;
 }
 #silos figure img{
     width: 100%;
@@ -94,35 +99,54 @@ header{
       width: 100%;
   }
 #video{
-    margin-left: 30%;
+    width: 100%;
 }
-#txt-carac{
-    float: left;
-    width: 70%;
+#txt-carac p{
+    text-align:justify;
 }
 #img-carac{
-    width: 30%;
-    float: right;
+    margin-left: 15px;
+    /* margin-bottom: 10px; */
+    margin-top: 30px;
+    width: 55%;
+    float: right; 
+    
 }
 #img-carac img{
     width: 100%;
 }
 #comprar{
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    column-gap: 10%;
+    row-gap: 20px;
+    vertical-align: middle;
+}
+#comprar>div{
+    width: 45%;
 }
 .card {
+    background-color: #f8f4f4;
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: 20px;
     text-align: center;
+  }
+  .card h3{
+      margin-top: 0;
+  }
+  .card p{
+      height: 70px;
+      font-size: 15px;
   }
   
   .price {
     color: grey;
     font-size: 22px;
+    margin-bottom: 0%;
+    margin-top: 0%;
   }
   .card a {
     border: none;
@@ -135,4 +159,5 @@ header{
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+    text-decoration: none;
   }
