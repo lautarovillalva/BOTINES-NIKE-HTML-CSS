@@ -9,6 +9,9 @@ header, section, footer{
     overflow: auto;
     margin: auto;
 }
+footer{
+    margin-top: 50px;
+}
 header{
     background-color: darkorange;
 }
@@ -54,6 +57,7 @@ header{
 .cursiva{
     font-style: italic;
     color: grey;
+    padding-right: 4px;
 }
 #banner img{
     width: 200px;
@@ -116,16 +120,16 @@ header{
     width: 100%;
 }
 #comprar{
-    padding-left: 10%;
-    padding-right: 10%;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     flex-flow: row wrap;
-    column-gap: 10%;
-    row-gap: 20px;
-    vertical-align: middle;
+    row-gap: 2%;
+    column-gap: 2%;
+
 }
-#comprar>div{
-    width: 45%;
+#comprar>.card{
+    width: 20%;
 }
 .card {
     background-color: #f8f4f4;
@@ -136,9 +140,13 @@ header{
   }
   .card h3{
       margin-top: 0;
+      height: 30px;
   }
   .card p{
-      height: 70px;
+      text-align:center;
+      padding-left: 10px;
+      padding-right: 10px;
+      height: 120px;
       font-size: 15px;
   }
   
@@ -160,4 +168,17 @@ header{
     width: 100%;
     font-size: 18px;
     text-decoration: none;
+  }
+  form ul {
+      float: left;
+  }
+  form ul li{
+      padding-bottom: 10px;
+      list-style: none;
+  }
+  #formulario{
+    overflow: hidden;
+  }
+  textarea{
+      resize: none;
   }
