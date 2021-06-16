@@ -169,8 +169,16 @@ header{
     font-size: 18px;
     text-decoration: none;
   }
+  form{
+      padding: 30px;
+      border: solid;
+      width: fit-content;
+      border-radius: 7px;
+  }
   form ul {
       float: left;
+      padding-left: 0;
+      margin-right: 100px;
   }
   form ul li{
       padding-bottom: 10px;
