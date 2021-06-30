@@ -1,192 +1,244 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
-body{
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    text-align: justify;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap");
+body {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  text-align: justify;
 }
-header, section, footer{
-    width: 70%;
-    overflow: auto;
-    margin: auto;
+header,
+section,
+footer {
+  width: 70%;
+  overflow: auto;
+  margin: auto;
 }
-footer{
-    margin-top: 50px;
+footer {
+  margin-top: 50px;
 }
-header{
-    background-color: darkorange;
+header {
+  background-color: darkorange;
 }
-#marca{
-    float: left;
+#marca {
+  float: left;
 }
-#marca h1{
-    margin: 0;
-    padding-top: 3px;
-    padding-left: 13px;
+#marca h1 {
+  margin: 0;
+  padding-top: 3px;
+  padding-left: 13px;
 }
-#botonera{
-    font-size: 10px;
-    float: right;
+#botonera {
+  font-size: 10px;
+  float: right;
 }
-#botonera ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+#botonera ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-#img-superficies img{
-    width: 100%;
+#img-superficies img {
+  width: 100%;
 }
-#botonera ul li{
-    display: inline;
+#botonera ul li {
+  display: inline;
 }
-#botonera ul li a{
-    font-size: 20px;
-    display:inline-block;
-    padding: 20px ;
-    text-decoration: none;
-    color: black;
+#botonera ul li a {
+  font-size: 20px;
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
 }
-#botonera ul li a:hover{
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
+#botonera ul li a:hover {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
 }
 #banner {
-    /* height: 300px; */
-    box-sizing: border-box;
-    background-color: rgb(0, 0, 0);
+  /* height: 300px; */
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
 }
-.cursiva{
-    font-style: italic;
-    color: grey;
-    padding-right: 4px;
+.cursiva {
+  font-style: italic;
+  color: grey;
+  padding-right: 4px;
 }
-#banner img{
-    width: 200px;
-    display:block;
-    margin:auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+#banner img {
+  width: 200px;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-#banner h2{
-    text-align: center;
-    font-size: 70px;
-    color: aliceblue;
+#banner h2 {
+  text-align: center;
+  font-size: 70px;
+  color: aliceblue;
 }
-#silos{
-    overflow: hidden;
+#silos {
+  overflow: hidden;
 }
-#caracteristicas{
-    overflow: hidden;
+#caracteristicas {
+  overflow: hidden;
 }
-#silos figure{
-    float: left;
-    width: 40%;
+#silos figure {
+  float: left;
+  width: 40%;
 }
-#silos figure img{
-    width: 100%;
+#silos figure img {
+  width: 100%;
 }
-#datos {
-    width: 300px;
-    height: 150px;
-    background-color: darkmagenta;
-    float: left;
-  }
-  #redes {
-    width: 350px;
-    height: 40px;
-    background-color: darkmagenta;
-    float: right;
-  }
-  footer{
-      background-color: aquamarine;
-  }
-  #info{
-      width: 100%;
-  }
-#video{
-    width: 100%;
-}
-#txt-carac p{
-    text-align:justify;
-}
-#img-carac{
-    margin-left: 15px;
-    /* margin-bottom: 10px; */
-    margin-top: 30px;
-    width: 55%;
-    float: right; 
-    
-}
-#img-carac img{
-    width: 100%;
-}
-#comprar{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-flow: row wrap;
-    row-gap: 2%;
-    column-gap: 2%;
 
+#redes {
+  width: 350px;
+  height: 40px;
+  float: right;
 }
-#comprar>.card{
-    width: 20%;
+#redes a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+#redes img{
+    height: 40px;
+}
+#redes h4{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+footer {
+    height: 150px;
+  background-color: black;
+}
+#info {
+  width: 100%;
+}
+#video {
+  width: 100%;
+}
+#txt-carac p {
+  text-align: justify;
+}
+#img-carac {
+  margin-left: 15px;
+  /* margin-bottom: 10px; */
+  margin-top: 30px;
+  width: 55%;
+  float: right;
+}
+#img-carac img {
+  width: 100%;
+}
+#comprar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row wrap;
+  row-gap: 2%;
+  column-gap: 2%;
+}
+#comprar > .card {
+  margin-top: 30px;
+  width: 20%;
 }
 .card {
-    background-color: #f8f4f4;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    text-align: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: #f8f4f4;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 30px;
+}
+.card h3 {
+  margin-top: 0;
+  height: 30px;
+}
+.card p {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 120px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+.card a {
+  border: none;
+  outline: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  text-decoration: none;
+}
+form {
+  padding: 30px;
+  border: solid;
+  width: fit-content;
+  border-radius: 7px;
+}
+form ul {
+  float: left;
+  padding-left: 0;
+  margin-right: 100px;
+}
+form ul li {
+  padding-bottom: 10px;
+  list-style: none;
+}
+#formulario {
+  overflow: hidden;
+}
+textarea {
+  resize: none;
+}
+@media all and (min-width: 600px) and (max-width: 1023px) {
+  header,
+  section,
+  footer {
+    width: 90%;
+    overflow: auto;
+    margin: auto;
   }
-  .card h3{
-      margin-top: 0;
-      height: 30px;
+  .card h3 {
+    margin-bottom: 70px;
   }
-  .card p{
-      text-align:center;
-      padding-left: 10px;
-      padding-right: 10px;
-      height: 120px;
-      font-size: 15px;
+  .card p {
+    margin-bottom: 70px;
   }
-  
-  .price {
-    color: grey;
-    font-size: 22px;
-    margin-bottom: 0%;
-    margin-top: 0%;
+  form {
+    margin-bottom: 30px;
   }
-  .card a {
-    border: none;
-    outline: 0;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
+  #comprar > .card {
+    width: 40%;
+  }
+  #img-carac {
     width: 100%;
-    font-size: 18px;
-    text-decoration: none;
   }
-  form{
-      padding: 30px;
-      border: solid;
-      width: fit-content;
-      border-radius: 7px;
+  .card p {
+    font-size: 20px;
   }
-  form ul {
-      float: left;
-      padding-left: 0;
-      margin-right: 100px;
+}
+@media all and (max-width: 599px) {
+  header,
+  section,
+  footer {
+    width: 90%;
+    overflow: auto;
+    margin: auto;
   }
-  form ul li{
-      padding-bottom: 10px;
-      list-style: none;
+  #comprar > .card {
+    width: 100%;
   }
-  #formulario{
-    overflow: hidden;
-  }
-  textarea{
-      resize: none;
-  }
+}
